@@ -1,9 +1,9 @@
 .navbar{
-    background-color: rgb(196, 175, 57) !important;
+    background-color: #c42f5c !important;
 }
 .landing {
     height: 50vh;
-    background-color: #d11d53;
+    /* background-color: #c42f5c; */
     width: 100vw;
 }
 .toptext.h1{
@@ -16,3 +16,16 @@
     transform: translate(-50%, -50%);
     font-size: 50px;
 }
+
+
+
+ /* Small devices (landscape phones, 576px and up) */
+ @media (max-width: 575.98px) { 
+    .toptext.h1{
+        font-size: 35px;
+    }
+    .toptext{
+        font-size: 20px;
+    }
+
+ }
