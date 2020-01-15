@@ -17,8 +17,14 @@
     font-size: 50px;
 }
 
+footer{
+    background-color: #c42f5c !important;
+}
 
 
+
+
+/* MEDIA QUERRIES */
  /* Small devices (landscape phones, 576px and up) */
  @media (max-width: 575.98px) { 
     .toptext.h1{
