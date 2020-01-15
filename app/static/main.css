@@ -1,0 +1,15 @@
+.landing {
+    height: 50vh;
+    background-color: #d11d53;
+    width: 100vw;
+}
+.toptext.h1{
+    font-size: 60px;
+}
+.toptext{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
