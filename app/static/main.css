@@ -1,0 +1,37 @@
+.navbar{
+    background-color: #c42f5c !important;
+}
+.landing {
+    height: 50vh;
+    /* background-color: #c42f5c; */
+    width: 100vw;
+}
+.toptext.h1{
+    font-size: 60px;
+}
+.toptext{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+
+footer{
+    background-color: #c42f5c !important;
+}
+
+
+
+
+/* MEDIA QUERRIES */
+ /* Small devices (landscape phones, 576px and up) */
+ @media (max-width: 575.98px) { 
+    .toptext.h1{
+        font-size: 35px;
+    }
+    .toptext{
+        font-size: 20px;
+    }
+
+ }
